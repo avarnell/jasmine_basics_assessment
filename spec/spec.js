@@ -6,7 +6,7 @@ describe("letterGrader", function(){
     expect(code.letterGrader(85)).toEqual("B");
     expect(code.letterGrader(75)).toEqual("C");
   });
-  it("return a plus if #7+", function(){
+  it("return a plus if #7+, minus if #3-", function(){
     expect(code.letterGrader(99)).toEqual("A+");
     expect(code.letterGrader(73)).toEqual("C-");
     expect(code.letterGrader(85)).toEqual("B");
